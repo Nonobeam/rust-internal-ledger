@@ -2,7 +2,7 @@ use deadpool_postgres::Pool;
 use std::sync::Arc;
 use uuid::Uuid;
 
-use crate::repository::user::user_repository::UserRepository;
+use crate::traits::user::user_repository::UserRepository;
 use crate::domain::user::user::{User, CreateUserDTO};
 use crate::common::logger::app_error::AppError;
 
